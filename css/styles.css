@@ -11,6 +11,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-image: url("https://i.pinimg.com/564x/d2/23/f7/d223f7837a6fbb70d58b1e0145b615c2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -32,6 +35,9 @@ nav p {
 #container {
     margin: auto;
     max-width: 600px;
+    background-color:lightyellow;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 textarea {
@@ -89,6 +95,7 @@ footer {
     background-color: #FDDA0D;
     padding-bottom: 1rem;
     padding-top: 1rem;
+   
 }
 
 
@@ -97,3 +104,18 @@ footer p {
     margin: auto;
     margin-top: 1rem;
 }
+  
+footer a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  
+  }
+  
+  .footer-div {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
